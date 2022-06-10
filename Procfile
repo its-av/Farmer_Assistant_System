@@ -1,1 +1,1 @@
-web: gunicorn index:server --workers 4
+web: gunicorn --timeout 15 --keep-alive 5 index:server --workers 4
