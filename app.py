@@ -1,7 +1,7 @@
 import os
-import tensorflow as tf
+#import tensorflow as tf
+import keras
 import numpy as np
-from tensorflow import keras
 #from skimage import io
 import cv2
 import keras
@@ -21,7 +21,7 @@ app = Flask(__name__)
 # You can also use pretrained model from Keras
 # Check https://keras.io/applications/
 
-model =tf.keras.models.load_model('av_model.h5',compile=False)
+model =keras.models.load_model('av_model.h5',compile=False)
 print('Model loaded. Check http://127.0.0.1:1000/')
 
 def model_predict(img_path, model):
