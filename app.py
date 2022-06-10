@@ -11,7 +11,7 @@ import keras
 # Flask utils
 from flask import Flask, redirect, url_for, request, render_template
 from werkzeug.utils import secure_filename
-from gevent.pywsgi import WSGIServer
+#from gevent.pywsgi import WSGIServer
 
 # Define a flask app
 app = Flask(__name__)
