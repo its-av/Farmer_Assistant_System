@@ -15,7 +15,7 @@ from werkzeug.utils import secure_filename
 
 # Define a flask app
 app = Flask(__name__)
-server = app.server
+
 # Model saved with Keras model.save()
 
 # You can also use pretrained model from Keras
