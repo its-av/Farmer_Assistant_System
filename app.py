@@ -98,7 +98,7 @@ def upload():
     return None
 
 
-if __name__ == '__main__':
+'''if __name__ == '__main__':
     # app.run(port=5002, debug=True)
 
     # Serve the app with gevent
@@ -107,4 +107,4 @@ if __name__ == '__main__':
 
     #http_server = WSGIServer(("0.0.0.0", 5000), app)
     #http_server.serve_forever()
-    app.run()
+    app.run()'''
