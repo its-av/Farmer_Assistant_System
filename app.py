@@ -62,8 +62,8 @@ def farmerAssistant():
 @app.route('/')
 def index():
     # Main page
-    #return render_template('index.html')
-    return 'HEllo'
+    return render_template('index.html')
+    #return 'HEllo'
 
 
 @app.route('/predict', methods=['GET', 'POST'])
